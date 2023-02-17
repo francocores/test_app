@@ -1,3 +1,7 @@
+import { endpoints } from "./endpoints";
+
 export const environment = {
-  production: true
+  production: true,
+  host: 'https://picsum.photos/',
+  ...endpoints,
 };
